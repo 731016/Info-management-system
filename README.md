@@ -25,7 +25,7 @@ happy varchar(50) not null
 
 ### 主要功能
 1. 注册，登录，登出
-2. cookie20s内免登录
+2. cookie 20s内免登录
 3. session防止用户直接输入网站登录
 4. 查看用户信息，并修改
 5. 删除用户信息
@@ -119,7 +119,7 @@ public class JdbcUtils {
 
 ### pojo层
 数据库中的表对应的实体类:
-[输入链接说明](http://)
+[Student.java](https://gitee.com/LovelyHzz/Info-management-system/blob/master/src/com/pojo/Student.java)
 
 ### dao层
 #### StudentDao接口
