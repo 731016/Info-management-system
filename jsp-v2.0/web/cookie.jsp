@@ -8,13 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     if (request.getCookies()==null){
-        response.sendRedirect("register.jsp");
+        response.sendRedirect("stu_list.jsp");
         return;
     }
     Cookie[] cookies = request.getCookies();
     for (Cookie cookie : cookies) {
         if (cookie.getName().equals("cookie_login")){
-            response.sendRedirect("register.jsp");
+            response.sendRedirect("stu_list.jsp");
             return;
         }
     }
