@@ -1,13 +1,18 @@
 #  :rainbow: bootstrap+JavaSE+JDBC的信息管理系统
 
 ### 介绍
-使用bootstrap+JavaEE+JDBC+JSP页面；实现一个用户信息的增删改查功能
+使用bootstrap+JavaEE+JDBC+JSP+Ajax页面；实现一个用户信息的增删改查功能
 
 ### 源码
 直接下载本项目即可
 
+### 2021/9/18
+1. 新增ajax，用户名注册验证，数据库是否存在已经注册的用户账号
+2. 注册新增，ajax注册，注册可使用表单的post请求和ajax的post请求
+
+
 ### 项目结构
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/122628_ae764554_8254421.png "项目结构.png")
+![2.0](https://images.gitee.com/uploads/images/2021/0928/182435_6c06ec0b_8254421.png "jsp项目结构.png")
 
 ### 数据库设计
 ```txt
