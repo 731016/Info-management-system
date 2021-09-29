@@ -13,7 +13,19 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-
+/*
+    请求方式：post
+    请求地址："/stu_detail"
+    
+    请求参数：
+        acc 账号
+        sex 性别
+        educ 学历
+        happy 爱好
+    
+    返回格式：js代码
+    格式：<script>alert('修改成功！');location='stu_detail.jsp';</script>
+ */
 @WebServlet(name = "alterSvl", urlPatterns = "/stu_detail")
 public class alterSvl extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
