@@ -23,7 +23,7 @@ import java.sql.SQLException;
         educ 学历
         happy 爱好
     
-    返回格式：js代码
+    返回格式：text/html
     格式：<script>alert('修改成功！');location='stu_detail.jsp';</script>
  */
 @WebServlet(name = "alterSvl", urlPatterns = "/stu_detail")
