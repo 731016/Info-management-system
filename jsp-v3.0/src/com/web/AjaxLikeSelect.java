@@ -13,6 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/*
+    处理模糊查询请求
+    data:{'acc':username}
+
+    接收字符串acc
+    返回：被序列化的对象，json格式的字符串
+*/
 @WebServlet(name = "AjaxLikeSelect",urlPatterns = "/ajaxSelect")
 public class AjaxLikeSelect extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
