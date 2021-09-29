@@ -1,7 +1,7 @@
 #  :rainbow: bootstrap+JavaSE+JDBC的信息管理系统
 
 ### 介绍
-使用bootstrap+JavaEE+JDBC+JSP+Ajax页面；实现一个用户信息的增删改查功能
+使用`bootstrap`+`JavaEE`+`JDBC`+`JSP`+`Ajax`页面；实现一个用户信息的增删改查功能
 
 ### 源码
 <h6>没有使用ajax技术，无模糊查询功能</h6>
