@@ -4,15 +4,15 @@
 使用bootstrap+JavaEE+JDBC+JSP+Ajax页面；实现一个用户信息的增删改查功能
 
 ### 源码
-<h5>没有使用ajax技术，无模糊查询功能</h5>
+<h6>没有使用ajax技术，无模糊查询功能</h6>
 
 [jsp-v1.0版本](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v1.0)
 
-<h5>注册用户使用ajax，无模糊查询功能</h5>
+<h6>注册用户使用ajax，无模糊查询功能</h6>
 
 [jsp-v2.0版本](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v2.0)
 
-<h5>展示数据采用ajax，模糊查询采用ajax</h5>
+<h6>展示数据采用ajax，模糊查询采用ajax</h6>
 
 [jsp-v3.0版本](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v3.0)
 
