@@ -32,7 +32,7 @@
 
 
 ### 项目结构
-![2.0](https://images.gitee.com/uploads/images/2021/0928/182435_6c06ec0b_8254421.png "jsp项目结构.png")
+![3.0](https://images.gitee.com/uploads/images/2021/0929/192903_56072abe_8254421.png "项目列表.png")
 
 ### 数据库设计
 ```txt
