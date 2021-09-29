@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 /*
     请求方式：post
-    请求地址："/ajaxAdd"
+    请求地址："/ajaxSelect"
     
     请求参数：{'acc':username}
     参数：acc - 请求获取的名称
