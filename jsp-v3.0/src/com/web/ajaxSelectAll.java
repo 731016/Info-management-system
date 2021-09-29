@@ -15,7 +15,18 @@ import java.sql.SQLException;
 import java.util.List;
 
 /*
-查询所有用户
+    查询所有用户
+
+    请求方式：post
+    请求地址：/selectAll
+    请求参数：{}
+
+    返回格式：List<Student>序列化后的json字符串
+    格式：
+    [
+        {"account":"admin","pwd":"123","sex":"男","educ":"本科","happy":"玩游戏,学习,旅游"},
+        {"account":"root","pwd":"123","sex":"男","educ":"专科","happy":"玩游戏,旅游"}
+    ]
  */
 @WebServlet(name = "ajaxSelectAll",urlPatterns = "/selectAll")
 public class ajaxSelectAll extends HttpServlet {
