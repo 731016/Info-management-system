@@ -12,7 +12,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
-
+/*
+    请求方式：post
+    请求地址：/register
+    请求参数：account 用户名
+             password 密码
+             sex 性别
+             educ 学历
+            happy 爱好
+    
+    重定向：login.jsp
+*/
 @WebServlet(name = "registerSvl", urlPatterns = "/register")
 public class registerSvl extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
