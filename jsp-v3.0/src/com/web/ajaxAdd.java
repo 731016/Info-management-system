@@ -12,7 +12,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
-
+/*
+    请求方式：post
+    请求地址："/ajaxAdd"
+    请求参数：{'json': {'account':'admin','pwd':'123','sex':'男','educ':'本科','happy':'玩游戏,学习,旅游'}}
+    
+    返回格式：json字符串
+    返回参数：
+    {"status":1,"value\":"添加成功!"}
+    {"status":0,"value\":"添加失败!"}
+ */
 @WebServlet(name = "ajaxAdd", urlPatterns = "/ajaxAdd")
 public class ajaxAdd extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
