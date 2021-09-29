@@ -12,7 +12,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
+/*
+    请求方式：post
+    请求地址："/ajaxDel"
+    请求参数：{'delAcc': 'admin'}
+    参数：delAcc - 账号
 
+    返回格式：json字符串
+    返回参数：
+    {"status":1,"value\":"删除成功!"}
+    {"status":0,"value\":"删除失败!"}
+    参数：status - 状态，删除成功，返回修改行数 [>0 成功 ==0 失败]
+         value - 弹出提示
+ */
 @WebServlet(name = "ajaxDel", urlPatterns = "/ajaxDel")
 public class ajaxDel extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
