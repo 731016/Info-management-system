@@ -15,7 +15,11 @@ import java.sql.SQLException;
 /*
     请求方式：post
     请求地址："/ajaxAdd"
-    请求参数：{'json': {'account':'admin','pwd':'123','sex':'男','educ':'本科','happy':'玩游戏,学习,旅游'}}
+    
+    请求参数：{'json': jsonData}
+    参数：json - 请求获取的名称
+         jsonData - 值为json字符串，为了序列化为对象
+         格式：{'account':'admin','pwd':'123','sex':'男','educ':'本科','happy':'玩游戏,学习,旅游'}
     
     返回格式：json字符串
     返回参数：
