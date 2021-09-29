@@ -14,7 +14,15 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 /*
-查询当前登录的用户名
+    查询当前登录的用户名
+
+    请求方式：post
+    请求地址："/select"
+    请求参数：无参数
+    
+    返回格式：json字符串
+    返回参数：Student序列化后的json字符串
+    格式：{'account':'admin','pwd':'123','sex':'男','educ':'本科','happy':'玩游戏,学习'}
  */
 @WebServlet(name = "ajaxSelect",urlPatterns = "/select")
 public class ajaxSelect extends HttpServlet {
