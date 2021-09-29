@@ -62,10 +62,7 @@ happy varchar(50) not null
 ![登录页面](https://images.gitee.com/uploads/images/2021/0920/130948_b86c3707_8254421.png "登录页面.png")
 
 #### 注册
-![注册页面](https://images.gitee.com/uploads/images/2021/0920/131022_1316e31e_8254421.png "注册页面.png")
-
-#### 注册验证
-![注册输入验证](https://images.gitee.com/uploads/images/2021/0920/131142_a9dc3a11_8254421.png "注册输入验证.png")
+![注册](https://images.gitee.com/uploads/images/2021/0929/193044_34df3fb1_8254421.png "注册.png")
 
 #### 模糊查询
 ![ajax展示数据，注册，模糊查询](https://images.gitee.com/uploads/images/2021/0929/192717_89f88b69_8254421.png "ajax.png")
