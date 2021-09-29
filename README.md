@@ -15,6 +15,10 @@
 2. 注册新增，ajax注册，注册可使用表单的post请求和ajax的post请求
 3. 解决免登陆问题，登录后点击添加用户，再点击登录页面，会一直在注册页面
 
+### 2021/9/29
+1. 修改展示数据的方式，改为ajax请求
+2. 新增模糊查询用户账号
+
 
 ### 项目结构
 ![2.0](https://images.gitee.com/uploads/images/2021/0928/182435_6c06ec0b_8254421.png "jsp项目结构.png")
@@ -141,6 +145,7 @@ public class JdbcUtils {
  :three: `public Student selectOne(String stuName) throws SQLException;`// 查询单个用户信息<br>
  :four: `public Integer delOne(String stuName) throws SQLException;` // 删除单个用户信息<br>
  :five: `public Integer alterOne(Student student) throws SQLException;` //修改单个用户信息<br>
+ :six: `public List<Student> selectAll(String acc) throws SQLException;`//模糊查询用户名<br>
 
 ### service层
 接口和dao层相同
@@ -148,6 +153,7 @@ public class JdbcUtils {
 public interface StudentService {
     public Integer insertStudent(Student student) throws SQLException;
     public List<Student> selectAll() throws SQLException;
+    public List<Student> selectAll(String acc) throws SQLException;
     public Student selectOne(String stuName) throws SQLException;
     public Integer delOne(String stuName) throws SQLException;
     public Integer alterOne(Student student) throws SQLException;
