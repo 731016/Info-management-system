@@ -67,6 +67,9 @@ happy varchar(50) not null
 #### 注册验证
 ![注册输入验证](https://images.gitee.com/uploads/images/2021/0920/131142_a9dc3a11_8254421.png "注册输入验证.png")
 
+#### 模糊查询
+![ajax展示数据，注册，模糊查询](https://images.gitee.com/uploads/images/2021/0929/192717_89f88b69_8254421.png "ajax.png")
+
 #### 用户列表
 ![登录进入-用户列表页面](https://images.gitee.com/uploads/images/2021/0920/131103_ec92c157_8254421.png "登录进入-用户列表页面.png")
 
