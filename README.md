@@ -170,6 +170,10 @@ public interface StudentService {
     public Integer alterOne(Student student) throws SQLException;
 }
 ```
+
+### web层，servlet
+![servlet](https://images.gitee.com/uploads/images/2021/0929/194656_877e5375_8254421.png "web层.png")
+
 ### web目录 v1.0可用
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/130847_edf56cc7_8254421.png "page.png")
  **WEB-INF** 目录下的包含 **web.xml** 文件配置
