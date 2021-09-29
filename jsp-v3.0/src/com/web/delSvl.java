@@ -10,7 +10,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
-
+/*
+    请求方式：post
+    请求地址："/del"
+    请求参数：{'delAcc': delAcc}
+        delAcc - 获取名称
+        delAcc - 要删除的用户名
+    
+    重定向：stu_list.jsp
+ */
 @WebServlet(name = "delSvl",urlPatterns = "/del")
 public class delSvl extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
