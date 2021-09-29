@@ -23,7 +23,10 @@ import java.util.List;
     
     返回格式：json字符串
     返回参数：List<Student>序列化后的json字符串
-    格式：{'account':'admin','pwd':'123','sex':'男','educ':'本科','happy':'玩游戏,学习'}
+    格式：[
+        {"account":"admin","pwd":"123","sex":"男","educ":"本科","happy":"玩游戏,学习,旅游"},
+        {"account":"root","pwd":"123","sex":"男","educ":"专科","happy":"玩游戏,旅游"}
+    ]
  */
 @WebServlet(name = "AjaxLikeSelect",urlPatterns = "/ajaxSelect")
 public class AjaxLikeSelect extends HttpServlet {
