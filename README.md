@@ -4,8 +4,11 @@
 使用bootstrap+JavaEE+JDBC+JSP+Ajax页面；实现一个用户信息的增删改查功能
 
 ### 源码
-[最新版jsp-v2.0](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v2.0)
-直接下载本项目即可。
+jsp-v2.0版本，没有使用ajax技术，无模糊查询功能
+jsp-v2.0版本，注册用户使用ajax，无模糊查询功能
+jsp-v3.0版本，展示数据采用ajax，模糊查询采用ajax
+
+下载对应版本即可！
 
 ### Bug
 1. 注册时只对用户名和密码进行正则验证，只输入用户名和密码，直接注册会成功！
