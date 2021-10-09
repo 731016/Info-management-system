@@ -16,6 +16,10 @@
 
 [jsp-v3.0版本](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v3.0)
 
+<h6>防止用户跳过登录和免登陆采用filter过滤器</h6>
+
+[jsp-v4.0版本](https://gitee.com/LovelyHzz/Info-management-system/tree/master/jsp-v4.0)
+
 下载对应版本即可！
 
 ### Bug
@@ -30,9 +34,12 @@
 1. 修改展示数据的方式，改为ajax请求
 2. 新增模糊查询用户账号
 
+### 2021/10/9
+1. 删除check.jsp和cookie.jsp，采用filter过滤器判断用户是否登录和免登陆
+2. filter进行传统配置和注解配置混合的方法
 
 ### 项目结构
-![3.0](https://images.gitee.com/uploads/images/2021/0929/192903_56072abe_8254421.png "项目列表.png")
+![4.0](https://images.gitee.com/uploads/images/2021/1009/170308_0398205d_8254421.png "项目结构4.0.png")
 
 ### 数据库设计
 ```txt
